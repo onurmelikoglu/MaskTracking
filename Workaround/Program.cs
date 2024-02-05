@@ -10,17 +10,17 @@ namespace WorkAround
             //Degiskenler();
             Vatandas vatandas1 = new Vatandas();
 
-            SelamVer("Hakan");
-            SelamVer("Ayşe");
+            SelamVer("Mehmet");
+            SelamVer("Ahmet");
             SelamVer();
             int sonuc = Topla(3, 5);
 
-            //Diziler- Arrays
+            //Diziler - Arrays
 
             string[] ogrenciler = new string[3];
-            ogrenciler[0] = "Fatma";
-            ogrenciler[1] = "Mahmut";
-            ogrenciler[2] = "Özge";
+            ogrenciler[0] = "Onur";
+            ogrenciler[1] = "Ege";
+            ogrenciler[2] = "Deniz";
 
             for (int i = 0; i < ogrenciler.Length; i++)
             {
@@ -77,8 +77,8 @@ namespace WorkAround
             int sayi = 100;
             bool girisYapmisMi = false;
 
-            string ad = "Hakan";
-            string soyad = "Ocak";
+            string ad = "Onur";
+            string soyad = "Melikoğlu";
             int dogumYili = 1988;
             long tcNo = 12345678910;
             Console.WriteLine(10000 * 1.18);
